@@ -75,38 +75,4 @@ class RobotWorldAnalystTest < Minitest::Test
     assert_equal 10, data_view["Colorado"]
   end
 
-
-  def data_for_ten_robots
-    [{:name => "T101", :city => "Denver", :state => "Colorado",
-      :birthdate => "2015-08-16", :date_hired => "2016-08-17",
-      :department => "a bad department"},
-      {:name => "T102", :city => "Boulder", :state => "Colorado",
-      :birthdate => "2004-08-16", :date_hired => "2006-08-17",
-      :department => "a bad department"},
-      {:name => "T103", :city => "Boulder", :state => "Colorado",
-      :birthdate => "2015-08-16", :date_hired => "2016-08-17",
-      :department => "a bad department"},
-      {:name => "T104", :city => "Denver", :state => "Colorado",
-      :birthdate => "2015-08-16", :date_hired => "2016-08-17",
-      :department => "a bad department"},
-      {:name => "T105", :city => "Denver", :state => "Colorado",
-      :birthdate => "2015-08-16", :date_hired => "2016-08-17",
-      :department => "a bad department"},
-      {:name => "T106", :city => "Denver", :state => "Colorado",
-      :birthdate => "2015-08-16", :date_hired => "2016-08-17",
-      :department => "a bad department"},
-      {:name => "T107", :city => "Denver", :state => "Colorado",
-      :birthdate => "1983-08-16", :date_hired => "1990-08-17",
-      :department => "a great department"},
-      {:name => "T108", :city => "Denver", :state => "Colorado",
-      :birthdate => "1983-08-16", :date_hired => "1990-08-17",
-      :department => "a great department"},
-      {:name => "T109", :city => "Denver", :state => "Colorado",
-      :birthdate => "2000-08-16", :date_hired => "2001-08-17",
-      :department => "a great department"},
-      {:name => "T110", :city => "Denver", :state => "Colorado",
-      :birthdate => "2000-08-16", :date_hired => "2001-08-17",
-      :department => "a great department"}]
-  end
-
 end
