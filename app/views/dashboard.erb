@@ -1,0 +1,50 @@
+<div class=container>
+  <div class="alert alert-info text-center">
+    <h1>Average Robot Age:</h1>
+    <h1><%= @dashboard_data["average_age"] %></h1>
+  </div>
+</div><!-- container -->
+
+<div class=container>
+  <div class="alert alert-warning">
+    <H1 class="text-center">Count of Robots by State:</H1>
+    <table class="table table-hover table-condensed">
+    <% @dashboard_data["state_data_view"].each_pair do |key, value| %>
+      <tr><td><h3><%=key%></h3></td><td><h3><%=value%></h3></td></tr>
+    <% end %>
+    </table>
+  </div><!--state-->
+</div><!-- container -->
+
+<div class=container>
+  <div class="alert alert-success">
+    <H1 class="text-center">Count of Robots by City:</H1>
+    <table class="table table-hover table-condensed">
+    <% @dashboard_data["city_data_view"].each_pair do |key, value| %>
+      <tr><td><h3><%=key%></h3></td><td><h3><%=value%></h3></td></tr>
+    <% end %>
+    </table>
+  </div><!--City-->
+</div><!-- container -->
+
+<div class=container>
+  <div class="alert alert-info">
+    <H1 class="text-center">Count of Robots Hired by Year:</H1>
+    <table class="table table-hover table-condensed">
+    <% @dashboard_data["year_hired_data_view"].each_pair do |key, value| %>
+      <tr><td><h3><%=key%></h3></td><td><h3><%=value%></h3></td></tr>
+    <% end %>
+    </table>
+  </div><!--Year Hired-->
+</div><!-- container -->
+
+<div class=container>
+  <div class="alert alert-danger">
+    <H1 class="text-center">Count of Robots by Department:</H1>
+    <table class="table table-hover table-condensed">
+    <% @dashboard_data["department_data_view"].each_pair do |key, value| %>
+      <tr><td><h3><%=key%></h3></td><td><h3><%=value%></h3></td></tr>
+    <% end %>
+    </table>
+  </div><!--department-->
+</div><!-- container -->

@@ -1,0 +1,68 @@
+<div class="col-md-10 col-md-offset-1 panel panel-default">
+
+  <div class="panel-body">
+
+    <div class="col-md-7">
+      <img src="<%= @robot.avatar_md %>">
+    </div>
+
+    <div class="col-md-5">
+      <form action="/robots/<%= @robot.id %>" method="POST"  class="form-horizontal">
+        <input type="hidden" name="_method" value="PUT">
+        <fieldset>
+          <legend><%= @robot.name %></legend>
+
+          <div class="form-group">
+            <label for="inputName" class="col-md-2 control-label">Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="inputName" name='robot[name]' value="<%= @robot.name %>">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputCity" class="col-md-2 control-label">City</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="inputCity" name='robot[city]' value="<%= @robot.city %>">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputState" class="col-md-2 control-label">State</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="inputState" name='robot[state]' value="<%= @robot.state %>">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputDepartment" class="col-md-2 control-label">Dept</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="inputDepartment" name='robot[department]' value="<%= @robot.department %>">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputBirthdate" class="col-md-2 control-label">DOB</label>
+            <div class="col-md-10">
+              <input type="date" class="form-control" id="inputBirthdate" name='robot[birthdate]' value="<%= @robot.birthdate %>">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputDate_hired" class="col-md-2 control-label">DOH</label>
+            <div class="col-md-10">
+              <input type="date" class="form-control" id="inputDate_hired" name='robot[date_hired]' value="<%= @robot.date_hired %>">
+            </div>
+          </div>
+
+          <div class="btn-group col-md-offset" role="group">
+            <input class="btn btn-lg btn-primary" type='submit'/>
+            <a class="btn btn-info btn-lg" href="/robots/<%= @robot.id %>">Cancel</a>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+
+  </div><!--Panel Body-->
+
+</div><!--Panel -->

@@ -1,0 +1,272 @@
+---
+robots:
+- id: 1005
+  name: Motorized Evasion Bot
+  city: Mountain Road
+  state: Utah
+  avatar_sm: https://robohash.org/1005?set=set3&size=200x200
+  avatar_md: https://robohash.org/1005?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1005?set=set3&size=800x800
+  birthdate: 2002-01-11
+  date_hired: 2003-01-11
+  department: Database Acquisition Team
+- id: 1006
+  name: Reactive Bodyguard Juggernaut
+  city: Rycade
+  state: New Hampshire
+  avatar_sm: https://robohash.org/1006?set=set3&size=200x200
+  avatar_md: https://robohash.org/1006?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1006?set=set3&size=800x800
+  birthdate: 2002-07-10
+  date_hired: 2003-07-10
+  department: Database Acquisition Team
+- id: 1007
+  name: Solar War Management Prototype
+  city: Fortune
+  state: Vermont
+  avatar_sm: https://robohash.org/1007?set=set3&size=200x200
+  avatar_md: https://robohash.org/1007?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1007?set=set3&size=800x800
+  birthdate: 2003-11-06
+  date_hired: 2006-11-05
+  department: Database Acquisition Team
+- id: 1008
+  name: Self-Aware Farming Bot
+  city: Womer
+  state: Colorado
+  avatar_sm: https://robohash.org/1008?set=set3&size=200x200
+  avatar_md: https://robohash.org/1008?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1008?set=set3&size=800x800
+  birthdate: 2005-09-17
+  date_hired: 2006-09-17
+  department: Database Acquisition Team
+- id: 1009
+  name: Digital Instruction Drone
+  city: Milltown
+  state: Mississippi
+  avatar_sm: https://robohash.org/1009?set=set3&size=200x200
+  avatar_md: https://robohash.org/1009?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1009?set=set3&size=800x800
+  birthdate: 2005-10-19
+  date_hired: 2006-10-19
+  department: Division of Data Installation and Backup
+- id: 1010
+  name: Bionic Harvesting Device
+  city: Oak Hill Court
+  state: Michigan
+  avatar_sm: https://robohash.org/1010?set=set3&size=200x200
+  avatar_md: https://robohash.org/1010?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1010?set=set3&size=800x800
+  birthdate: 2006-02-12
+  date_hired: 2007-02-12
+  department: Division of Internet Connectivity
+- id: 1011
+  name: Digital Troubleshooting Robot
+  city: Janette Land
+  state: Vermont
+  avatar_sm: https://robohash.org/1011?set=set3&size=200x200
+  avatar_md: https://robohash.org/1011?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1011?set=set3&size=800x800
+  birthdate: 2006-10-19
+  date_hired: 2007-10-19
+  department: Division of PC Technology
+- id: 1012
+  name: Exceptional Unit Response Device
+  city: Harlem Heights
+  state: Idaho
+  avatar_sm: https://robohash.org/1012?set=set3&size=200x200
+  avatar_md: https://robohash.org/1012?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1012?set=set3&size=800x800
+  birthdate: 2007-03-27
+  date_hired: 2008-03-26
+  department: Division of PC Technology
+- id: 1013
+  name: Primary Personal Protection Droid
+  city: Scott Lake
+  state: Nevada
+  avatar_sm: https://robohash.org/1013?set=set3&size=200x200
+  avatar_md: https://robohash.org/1013?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1013?set=set3&size=800x800
+  birthdate: 2008-11-07
+  date_hired: 2012-11-07
+  department: Division of PC Technology
+- id: 1014
+  name: Nuclear Utility Bot
+  city: Wildermere Beach
+  state: Wyoming
+  avatar_sm: https://robohash.org/1014?set=set3&size=200x200
+  avatar_md: https://robohash.org/1014?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1014?set=set3&size=800x800
+  birthdate: 2009-03-06
+  date_hired: 2016-03-06
+  department: Division of PC Technology
+- id: 1015
+  name: Generic Care Automaton
+  city: Wescott
+  state: Minnesota
+  avatar_sm: https://robohash.org/1015?set=set3&size=200x200
+  avatar_md: https://robohash.org/1015?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1015?set=set3&size=800x800
+  birthdate: 2010-02-02
+  date_hired: 2016-02-02
+  department: Telecommunications Security and Installation Division
+- id: 1016
+  name: Compact Usher Technology
+  city: Burns Trailer Court
+  state: Minnesota
+  avatar_sm: https://robohash.org/1016?set=set3&size=200x200
+  avatar_md: https://robohash.org/1016?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1016?set=set3&size=800x800
+  birthdate: 2011-08-02
+  date_hired: 2012-08-01
+  department: Telecommunications Security and Installation Division
+- id: 1017
+  name: Digital Life Emulation Technician
+  city: Forks
+  state: Missouri
+  avatar_sm: https://robohash.org/1017?set=set3&size=200x200
+  avatar_md: https://robohash.org/1017?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1017?set=set3&size=800x800
+  birthdate: 2011-11-01
+  date_hired: 2012-10-31
+  department: Telecommunications Security and Installation Division
+- id: 1018
+  name: Bio-Electrionic Data Collection Robot
+  city: Hortense
+  state: Colorado
+  avatar_sm: https://robohash.org/1018?set=set3&size=200x200
+  avatar_md: https://robohash.org/1018?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1018?set=set3&size=800x800
+  birthdate: 2012-06-17
+  date_hired: 2013-06-17
+  department: Telecommunications Security and Installation Division Branch
+- id: 1019
+  name: Compact Waste Disposal Golem
+  city: Corley
+  state: New Hampshire
+  avatar_sm: https://robohash.org/1019?set=set3&size=200x200
+  avatar_md: https://robohash.org/1019?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1019?set=set3&size=800x800
+  birthdate: 2012-10-15
+  date_hired: 2013-10-15
+  department: Telecommunications Security and Installation Division
+- id: 1020
+  name: Compact Piloting Technician
+  city: Merritt
+  state: Michigan
+  avatar_sm: https://robohash.org/1020?set=set3&size=200x200
+  avatar_md: https://robohash.org/1020?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1020?set=set3&size=800x800
+  birthdate: 2014-06-15
+  date_hired: 2015-06-15
+  department: Telecommunications Security and Installation Division
+- id: 1021
+  name: Conscious Supervision Juggernaut
+  city: Robsart
+  state: Texas
+  avatar_sm: https://robohash.org/1021?set=set3&size=200x200
+  avatar_md: https://robohash.org/1021?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1021?set=set3&size=800x800
+  birthdate: 2014-06-29
+  date_hired: 2015-06-29
+  department: Division of On-Line PC Backup
+- id: 1022
+  name: Primary Management Machine
+  city: Palmer
+  state: Iowa
+  avatar_sm: https://robohash.org/1022?set=set3&size=200x200
+  avatar_md: https://robohash.org/1022?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1022?set=set3&size=800x800
+  birthdate: 2014-08-24
+  date_hired: 2015-08-24
+  department: Division of On-Line PC Backup
+- id: 1023
+  name: Dynamic Emergency Response Robot
+  city: Fernwood
+  state: Vermont
+  avatar_sm: https://robohash.org/1023?set=set3&size=200x200
+  avatar_md: https://robohash.org/1023?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1023?set=set3&size=800x800
+  birthdate: 2015-01-30
+  date_hired: 2016-01-30
+  department: Extranet Security and Telecommunications Backup Team
+- id: 1024
+  name: Sensory Travel Drone
+  city: Crocheron
+  state: Maine
+  avatar_sm: https://robohash.org/1024?set=set3&size=200x200
+  avatar_md: https://robohash.org/1024?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1024?set=set3&size=800x800
+  birthdate: 2015-05-17
+  date_hired: 2016-05-16
+  department: Extranet Security and Telecommunications Backup Team
+- id: 1025
+  name: Advanced Recording Juggernaut
+  city: South Robbinston
+  state: South Dakota
+  avatar_sm: https://robohash.org/1025?set=set3&size=200x200
+  avatar_md: https://robohash.org/1025?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1025?set=set3&size=800x800
+  birthdate: 2016-08-21
+  date_hired: 2016-08-21
+  department: Extranet Security and Telecommunications Backup Team
+- id: 1026
+  name: Compact Mining Automaton
+  city: Plum Point Estates
+  state: Nebraska
+  avatar_sm: https://robohash.org/1026?set=set3&size=200x200
+  avatar_md: https://robohash.org/1026?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1026?set=set3&size=800x800
+  birthdate: 2004-05-24
+  date_hired: 2016-05-24
+  department: Extranet Security and Telecommunications Backup Team
+- id: 1027
+  name: Personal Planet Survey Prototype
+  city: Yellowstone
+  state: South Dakota
+  avatar_sm: https://robohash.org/1027?set=set3&size=200x200
+  avatar_md: https://robohash.org/1027?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1027?set=set3&size=800x800
+  birthdate: 2006-09-01
+  date_hired: 2016-09-01
+  department: Extranet Security and Telecommunications Backup Team
+- id: 1028
+  name: Electronic Emulation Cyborg
+  city: Durhamville
+  state: New Hampshire
+  avatar_sm: https://robohash.org/1028?set=set3&size=200x200
+  avatar_md: https://robohash.org/1028?set=set3&size=500x500
+  avatar_lg: https://robohash.org/1028?set=set3&size=800x800
+  birthdate: '2007-05-31'
+  date_hired: '2008-05-30'
+  department: Multimedia Administration Team
+- id: 25
+  name: Drillbit
+  city: Berkley
+  state: California
+  avatar_sm: https://robohash.org//newrobot/?set=set3&size=200x200
+  avatar_md: https://robohash.org//newrobot/?set=set3&size=500x500
+  avatar_lg: https://robohash.org//newrobot/?set=set3&size=800x800
+  date_hired: '2003-07-10'
+  department: Multimedia Administration Team
+  birthdate: '2001-11-12'
+- id: 26
+  name: Green Machine
+  city: Boulder
+  state: Colorado
+  avatar_sm: https://robohash.org//26/?set=set3&size=200x200
+  avatar_md: https://robohash.org//26/?set=set3&size=500x500
+  avatar_lg: https://robohash.org//26/?set=set3&size=800x800
+  date_hired: '2003-06-13'
+  department: Multimedia Administration Team
+  birthdate: '2001-11-11'
+- id: 27
+  name: Attack Droid
+  city: Bar Harbor
+  state: Maine
+  avatar_sm: https://robohash.org//27/?set=set3&size=200x200
+  avatar_md: https://robohash.org//27/?set=set3&size=500x500
+  avatar_lg: https://robohash.org//27/?set=set3&size=800x800
+  date_hired: 2003-07-19
+  birthdate: 2001-10-11
+  department: Multimedia Administration Team
