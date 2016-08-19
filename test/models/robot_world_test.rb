@@ -13,7 +13,7 @@ class RobotWorldTest < Minitest::Test
       :department => "a bad department"}
   end
 
-  def create_task
+  def create_robot
     robot_world.create(data_for_one_robot)
   end
 
@@ -21,14 +21,14 @@ class RobotWorldTest < Minitest::Test
     robot_world.all.length
   end
 
-  def make_ten_tasks
+  def make_ten_robots
     data_for_ten_robots.each { |data| robot_world.create(data) }
   end
 
   def test_it_creates_a_robot
     assert_equal 0, number_of_robots
 
-    create_task
+    create_robot
     robot = robot_world.find(current_robot_id)
 
     assert_equal 1, number_of_robots
@@ -37,20 +37,16 @@ class RobotWorldTest < Minitest::Test
   def test_it_returns_all_robots
     assert_equal 0, number_of_robots
 
-    make_ten_tasks
+    make_ten_robots
 
     assert_equal 10, number_of_robots
   end
 
   def test_it_finds_a_robot
-    create_task
+    create_robot
     robot = robot_world.find(current_robot_id)
 
     assert_instance_of Robot, robot
-  end
-
-  def test_it_generates_id
-    assert_equal 1002, robot_world.generate_id([{"id"=>1001}])
   end
 
   def test_it_generates_urls
@@ -59,7 +55,7 @@ class RobotWorldTest < Minitest::Test
   end
 
   def test_it_updates_a_robot
-    create_task
+    create_robot
     assert_equal "Denver", robot_world.find(current_robot_id).city
 
     robot_world.update(current_robot_id, {:name => "T101", :city => "BOULDER", :state => "Colorado",
@@ -70,10 +66,10 @@ class RobotWorldTest < Minitest::Test
   end
 
   def test_it_can_delete_a_robot
-    create_task
+    create_robot
     assert_equal 1, number_of_robots
 
-    robot_world.delete(current_robot_id)
+    robot_world.destroy(current_robot_id)
 
     assert_equal 0, number_of_robots
   end
@@ -81,7 +77,7 @@ class RobotWorldTest < Minitest::Test
   def test_it_can_delete_all_robots
     assert_equal 0, number_of_robots
 
-    make_ten_tasks
+    make_ten_robots
     assert_equal 10, number_of_robots
 
     robot_world.delete_all

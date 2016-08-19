@@ -7,13 +7,7 @@ class RobotWorldApp < Sinatra::Base
   end
 
   get '/robots/dashboard' do
-    @dashboard_data = {
-      "average_age" => analyst.average_age,
-      "year_hired_data_view" => analyst.year_hired_data_view,
-      "department_data_view" => analyst.department_data_view,
-      "city_data_view" => analyst.city_data_view,
-      "state_data_view" => analyst.state_data_view,
-    }
+    @analyst = analyst
     erb :dashboard
   end
 
@@ -52,8 +46,13 @@ class RobotWorldApp < Sinatra::Base
   end
 
   def robot_world
-    database = ENV['RACK_ENV'] == "test" ? YAML::Store.new('db/robot_world_test') : YAML::Store.new('db/robot_world')
-    @robot_world ||= RobotWorld.new(database)
+    if ENV['RACK_ENV'] == "test"
+      database = SQLite3::Database.new('db/robot_world_test.db')
+    else
+      database = SQLite3::Database.new('db/robot_world_development.db')
+    end
+    database.results_as_hash = true
+    RobotWorld.new(database)
   end
 
   def analyst
