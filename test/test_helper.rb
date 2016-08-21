@@ -50,4 +50,13 @@ module TestHelpers
       :birthdate => "2000-08-16", :date_hired => "2001-08-17",
       :department => "a great department"}]
   end
+
+end
+
+
+Capybara.app = RobotWorldApp
+
+class FeatureTest < Minitest::Test
+  include Capybara::DSL
+  include TestHelpers
 end

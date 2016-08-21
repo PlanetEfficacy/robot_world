@@ -1,7 +1,7 @@
 <div class="container col-md-offset-2 col-md-8">
   <% @robots.each do |robot| %>
     <div class="col-xs-6 col-md-4">
-        <a href="/robots/<%= robot.id %>" class="thumbnail">
+        <a class="robot_tile" href="/robots/<%= robot.id %>" class="thumbnail">
           <img src="<%= robot.avatar_sm %>">
         </a>
     </div>
