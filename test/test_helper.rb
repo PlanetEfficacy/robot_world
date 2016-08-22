@@ -7,6 +7,10 @@ require "capybara/dsl"
 
 module TestHelpers
 
+  def make_ten_robots
+    data_for_ten_robots.each { |data| robot_world.create(data) }
+  end
+
   def teardown
     robot_world.delete_all
     super
@@ -19,7 +23,7 @@ module TestHelpers
   end
 
   def data_for_ten_robots
-    [{:name => "T101", :city => "Denver", :state => "Colorado",
+    [{:name => "T1000", :city => "Denver", :state => "Colorado",
       :birthdate => "2015-08-16", :date_hired => "2016-08-17",
       :department => "a bad department"},
       {:name => "T102", :city => "Boulder", :state => "Colorado",

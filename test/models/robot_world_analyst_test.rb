@@ -6,7 +6,7 @@ class RobotWorldAnalystTest < Minitest::Test
   attr_reader :analyst
 
   def setup
-    data_for_ten_robots.each { |data| robot_world.create(data) }
+    make_ten_robots
     @analyst = RobotWorldAnalyst.new(robot_world)
   end
 

@@ -21,10 +21,6 @@ class RobotWorldTest < Minitest::Test
     robot_world.all.length
   end
 
-  def make_ten_robots
-    data_for_ten_robots.each { |data| robot_world.create(data) }
-  end
-
   def test_it_creates_a_robot
     assert_equal 0, number_of_robots
 
